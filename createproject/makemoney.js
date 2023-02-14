@@ -1,9 +1,9 @@
-export function setupCounter(element) {
-  let counter = 0
+export function setupCounter(addmoney) {
+  let totalcash = 0;
   const setCounter = (count) => {
-    counter = count
-    element.innerHTML = `count is ${counter}`
-  }
-  element.addEventListener('click', () => setCounter(counter + 1))
-  setCounter(0)
+    totalcash = count;
+    addmoney.innerHTML = `You have ${totalcash}`;
+  };
+  addmoney.addEventListener("click", () => setCounter(totalcash + 1));
+  setCounter(0);
 }
