@@ -1,4 +1,3 @@
 import "./style.css";
+import { API } from "../js/api.js";
 import { setupCounter } from "./makemoney.js";
-
-let API = "https://coffee.alexflipnote.dev/random.json";
