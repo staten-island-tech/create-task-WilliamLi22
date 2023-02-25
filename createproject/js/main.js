@@ -1,2 +1,4 @@
 import { API } from "../js/api.js";
-import { setupCounter } from "./makemoney.js";
+import { totalCash } from "./makemoney.js";
+
+console.log("Initial Total Cash:", totalCash);

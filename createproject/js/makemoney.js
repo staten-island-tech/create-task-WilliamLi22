@@ -1,14 +1,14 @@
-function setupCounter(addmoney) {
-  let totalcash = 0;
+const makeMoneyBtn = document.getElementById("makemoneybtn");
+const totalCashSpan = document.getElementById("Totalcash");
 
-  const setCounter = (count) => {
-    let totalcash = count;
-    addmoney.innerHTML = `You have ${totalcash}`;
-  };
-  addmoney.addEventListener("click", () => setCounter(totalcash + 1));
-  setCounter(0);
-}
+let totalCash = 0;
 
-console.log(setupCounter.totalcash);
+makeMoneyBtn.addEventListener("click", () => {
+  totalCash++;
 
-export { setupCounter };
+  totalCashSpan.textContent = totalCash;
+
+  console.log("Total Cash:", totalCash);
+});
+
+export { totalCash };
