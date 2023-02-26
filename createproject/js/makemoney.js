@@ -1,13 +1,11 @@
-const makeMoneyBtn = document.getElementById("makemoneybtn");
-const totalCashSpan = document.getElementById("Totalcash");
+const makemoneybtn = document.getElementById("makemoneybtn");
+const cashdisplay = document.getElementById("Totalcash");
 
 let totalCash = 0;
 
-makeMoneyBtn.addEventListener("click", () => {
+makemoneybtn.addEventListener("click", () => {
   totalCash++;
-
-  totalCashSpan.textContent = totalCash;
-
+  cashdisplay.textContent = totalCash;
   console.log("Total Cash:", totalCash);
 });
 
