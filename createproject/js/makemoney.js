@@ -1,4 +1,4 @@
-const makemoneybtn = document.getElementById("makemoneybtn");
+/* const makemoneybtn = document.getElementById("makemoneybtn");
 const cashdisplay = document.getElementById("Totalcash");
 
 let totalCash = 0;
@@ -9,4 +9,4 @@ makemoneybtn.addEventListener("click", () => {
   console.log("Total Cash:", totalCash);
 });
 
-export { totalCash };
+export { totalCash }; */
