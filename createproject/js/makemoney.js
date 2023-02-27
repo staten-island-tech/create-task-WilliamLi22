@@ -1,12 +1,14 @@
 const makemoneybtn = document.getElementById("makemoneybtn");
 const cashdisplay = document.getElementById("Totalcash");
 
+//total cash
 let totalCash = 5;
 
 function setTotalCash(amount) {
   totalCash = amount;
 }
 
+//get one dollar per click
 makemoneybtn.addEventListener("click", () => {
   totalCash++;
   cashdisplay.textContent = totalCash;
@@ -15,6 +17,7 @@ makemoneybtn.addEventListener("click", () => {
 
 export { totalCash, setTotalCash };
 
+//double or nothing
 const flipButton = document.getElementById("flipcoinbtn");
 flipButton.addEventListener("click", flipCoin);
 
