@@ -1,5 +1,5 @@
-import { API } from "../js/api.js";
-import { flipCoin } from "./coinFlip.js";
+/* import { API } from "../js/api.js";
+import { flipCoin } from "./coinFlip.js"; */
 import { totalCash } from "./makemoney.js";
 
 console.log("You have:", totalCash);

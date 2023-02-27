@@ -1,11 +1,10 @@
-const flipButton = document.getElementById("flipcoinbtn");
+/* const flipButton = document.getElementById("flipcoinbtn");
 flipButton.addEventListener("click", flipCoin);
 
 import { totalCash, setTotalCash } from "./makemoney.js";
 
 function flipCoin() {
   let coinFlip = Math.floor(Math.random() * 2);
-  /* let result = coinFlip(); */
   if (coinFlip === 0) {
     console.log("Heads");
     totalCash *= 2;
@@ -23,3 +22,4 @@ function flipCoin() {
 }
 
 export { flipCoin };
+ */
