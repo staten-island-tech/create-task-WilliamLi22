@@ -127,66 +127,66 @@ const pokemon = [
   },
   {
     id: 9,
-    name: "Chikorita",
+    name: "Treecko",
     types: "Grass" + "N/A",
     front_sprite:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png",
   },
   {
     id: 10,
-    name: "Bayleef",
+    name: "Grovyle",
     types: "Grass" + "N/A",
     front_sprite:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png",
   },
   {
     id: 11,
-    name: "Meganium",
+    name: "Sceptile",
     types: "Grass" + "N/A",
     front_sprite:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png",
   },
   {
     id: 12,
-    name: "Cyndaquil",
+    name: "Torchic",
     types: "Fire" + "N/A",
     front_sprite:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png",
   },
   {
     id: 13,
-    name: "Quilava",
+    name: "Combusken",
     types: "Fire" + "N/A",
     front_sprite:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png",
   },
   {
     id: 14,
-    name: "Typhlosion",
-    types: "Fire" + "N/A",
+    name: "Blaziken",
+    types: "Fire" + "Fighting",
     front_sprite:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png",
   },
   {
     id: 15,
-    name: "Totodile",
+    name: "Mudkip",
     types: "Water" + "N/A",
     front_sprite:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png",
   },
   {
     id: 16,
-    name: "Croconaw",
+    name: "Marshtomp",
     types: "Water" + "N/A",
     front_sprite:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/259.png",
   },
   {
     id: 17,
-    name: "Feraligatr",
-    types: "Water" + "N/A",
+    name: "Swampert",
+    types: "Water" + "Ground",
     front_sprite:
-      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png",
+      "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png",
   },
 ];
 
