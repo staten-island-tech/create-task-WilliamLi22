@@ -21,17 +21,30 @@ document.getElementById("buybtn").addEventListener("click", function () {
 function randompokemon() {
   const randomid = Math.floor(Math.random() * pokemon.length);
   const selectedpokemon = pokemon[randomid];
-  document.getElementById("apiresponse").insertAdjacentHTML(
-    "beforeend",
-    `
-      <div class="card">
-      <h2 class="apiresponse">Name: ${selectedpokemon.name} </h2)
-      <h2 class="apiresponse">Generation: ${selectedpokemon.gen} </h2>
-      <img src="${selectedpokemon.front_sprite}" alt="Front_sprite of Pokemon">
-      <h2 class="apiresponse">Type(s): ${selectedpokemon.types} </h2>
-</div>
-`
-  );
+  if (totalCash >= 25) {
+    document.getElementById("apiresponse").insertAdjacentHTML(
+      "beforeend",
+      `
+        <div class="card">
+        <h2 class="apiresponse">Name: ${selectedpokemon.name} </h2)
+        <h2 class="apiresponse">Generation: ${selectedpokemon.gen} </h2>
+        <img src="${selectedpokemon.front_sprite}" alt="Front_sprite of Pokemon">
+        <h2 class="apiresponse">Type(s): ${selectedpokemon.types} </h2>
+        </div>
+      `
+    );
+    totalCash = totalCash - 25;
+    cashdisplay.textContent = totalCash;
+    console.log("Total Cash:", totalCash);
+  } else {
+    document
+      .getElementById("apiresponse")
+      .insertAdjacentHTML(
+        "beforeend",
+        `<p>You do not have enough money. Try again when you have 25 dollars.</p>`
+      );
+  }
+
   console.log(selectedpokemon);
 }
 
