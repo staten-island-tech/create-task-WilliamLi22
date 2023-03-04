@@ -1,4 +1,3 @@
-import { API } from "../js/api.js";
 import { pokemon } from "./pokemon.js";
 import { totalCash } from "./makemoney.js";
 
