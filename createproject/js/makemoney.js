@@ -1,4 +1,4 @@
-const makemoneybtn = document.getElementById("makemoneybtn");
+/* const makemoneybtn = document.getElementById("makemoneybtn");
 const cashdisplay = document.getElementById("Totalcash");
 
 //total cash
@@ -39,4 +39,4 @@ function flipCoin() {
   document.getElementById("Totalcash").innerHTML = totalCash;
 }
 
-export { flipCoin };
+export { flipCoin }; */
