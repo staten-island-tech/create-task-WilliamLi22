@@ -10,6 +10,7 @@ function setTotalCash(amount) {
 
 console.log("You have:", totalCash);
 
+//Buy button
 const apiresponse = document.querySelector(`#apiresponse`);
 
 document.getElementById("buybtn").addEventListener("click", function () {
@@ -20,18 +21,16 @@ document.getElementById("buybtn").addEventListener("click", function () {
 function randompokemon() {
   const randomid = Math.floor(Math.random() * pokemon.length);
   const selectedpokemon = pokemon[randomid];
-  selectedpokemon.pokemon.forEach((pokemon) =>
-    document.getElementById("apiresponse").insertAdjacentHTML(
-      "beforeend",
-      `
+  document.getElementById("apiresponse").insertAdjacentHTML(
+    "beforeend",
+    `
       <div class="card">
-      <h2 class="apiresponse">Name: ${pokemon.name} </h2)
-      <h2 class="apiresponse">Generation: ${pokemon.gen} </h2>
-      <img src="${pokemon.front_sprite}" alt="Front_sprite of Pokemon">
-      <h2 class="apiresponse">Type(s): ${pokemon.types} </h2>
+      <h2 class="apiresponse">Name: ${selectedpokemon.name} </h2)
+      <h2 class="apiresponse">Generation: ${selectedpokemon.gen} </h2>
+      <img src="${selectedpokemon.front_sprite}" alt="Front_sprite of Pokemon">
+      <h2 class="apiresponse">Type(s): ${selectedpokemon.types} </h2>
 </div>
 `
-    )
   );
   console.log(selectedpokemon);
 }
