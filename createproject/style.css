@@ -1,6 +1,22 @@
-html, body,*{
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-size: 62.6%;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+.apiresponse {
+  margin-top: 20px;
+}
+
