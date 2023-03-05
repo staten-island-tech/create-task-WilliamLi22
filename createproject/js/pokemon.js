@@ -3,7 +3,7 @@ const pokemon = [
     id: 0,
     name: "Bulbasaur",
     gen: 1,
-    types: "Grass" + "Poison",
+    types: "Grass" + "and" + "Poison",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png",
   },
@@ -11,7 +11,7 @@ const pokemon = [
     id: 1,
     name: "Ivysaur",
     gen: 1,
-    types: "Grass" + "Poison",
+    types: "Grass" + "and" + "Poison",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png",
   },
@@ -19,7 +19,7 @@ const pokemon = [
     id: 2,
     name: "Venusaur",
     gen: 1,
-    types: "Grass" + "Poison",
+    types: "Grass" + "and" + "Poison",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png",
   },
@@ -27,7 +27,7 @@ const pokemon = [
     id: 3,
     name: "Charmander",
     gen: 1,
-    types: "Fire" + "N/A",
+    types: "Fire" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png",
   },
@@ -35,7 +35,7 @@ const pokemon = [
     id: 4,
     name: "Charmeleon",
     gen: 1,
-    types: "Fire" + "N/A",
+    types: "Fire" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png",
   },
@@ -43,7 +43,7 @@ const pokemon = [
     id: 5,
     name: "Charizard",
     gen: 1,
-    types: "Fire" + "N/A",
+    types: "Fire" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png",
   },
@@ -51,7 +51,7 @@ const pokemon = [
     id: 6,
     name: "Squirtle",
     gen: 1,
-    types: "Water" + "N/A",
+    types: "Water" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png",
   },
@@ -59,7 +59,7 @@ const pokemon = [
     id: 7,
     name: "Wartortle",
     gen: 1,
-    types: "Water" + "N/A",
+    types: "Water" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/8.png",
   },
@@ -67,7 +67,7 @@ const pokemon = [
     id: 8,
     name: "Blastoise",
     gen: 1,
-    types: "Water" + "N/A",
+    types: "Water" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/9.png",
   },
@@ -75,7 +75,7 @@ const pokemon = [
     id: 9,
     name: "Chikorita",
     gen: 2,
-    types: "Grass" + "N/A",
+    types: "Grass" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/152.png",
   },
@@ -83,7 +83,7 @@ const pokemon = [
     id: 10,
     name: "Bayleef",
     gen: 2,
-    types: "Grass" + "N/A",
+    types: "Grass" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/153.png",
   },
@@ -91,7 +91,7 @@ const pokemon = [
     id: 11,
     name: "Meganium",
     gen: 2,
-    types: "Grass" + "N/A",
+    types: "Grass" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/154.png",
   },
@@ -99,7 +99,7 @@ const pokemon = [
     id: 12,
     name: "Cyndaquil",
     gen: 2,
-    types: "Fire" + "N/A",
+    types: "Fire" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/155.png",
   },
@@ -107,7 +107,7 @@ const pokemon = [
     id: 13,
     name: "Quilava",
     gen: 2,
-    types: "Fire" + "N/A",
+    types: "Fire" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/156.png",
   },
@@ -115,7 +115,7 @@ const pokemon = [
     id: 14,
     name: "Typhlosion",
     gen: 2,
-    types: "Fire" + "N/A",
+    types: "Fire" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/157.png",
   },
@@ -123,7 +123,7 @@ const pokemon = [
     id: 15,
     name: "Totodile",
     gen: 2,
-    types: "Water" + "N/A",
+    types: "Water" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/158.png",
   },
@@ -131,7 +131,7 @@ const pokemon = [
     id: 16,
     name: "Croconaw",
     gen: 2,
-    types: "Water" + "N/A",
+    types: "Water" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/159.png",
   },
@@ -139,7 +139,7 @@ const pokemon = [
     id: 17,
     name: "Feraligatr",
     gen: 2,
-    types: "Water" + "N/A",
+    types: "Water" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/160.png",
   },
@@ -147,7 +147,7 @@ const pokemon = [
     id: 18,
     name: "Treecko",
     gen: 3,
-    types: "Grass" + "N/A",
+    types: "Grass" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/252.png",
   },
@@ -155,7 +155,7 @@ const pokemon = [
     id: 19,
     name: "Grovyle",
     gen: 3,
-    types: "Grass" + "N/A",
+    types: "Grass" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/253.png",
   },
@@ -163,7 +163,7 @@ const pokemon = [
     id: 20,
     name: "Sceptile",
     gen: 3,
-    types: "Grass" + "N/A",
+    types: "Grass" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/254.png",
   },
@@ -171,7 +171,7 @@ const pokemon = [
     id: 21,
     name: "Torchic",
     gen: 3,
-    types: "Fire" + "N/A",
+    types: "Fire" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/255.png",
   },
@@ -179,7 +179,7 @@ const pokemon = [
     id: 22,
     name: "Combusken",
     gen: 3,
-    types: "Fire" + "N/A",
+    types: "Fire" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/256.png",
   },
@@ -187,7 +187,7 @@ const pokemon = [
     id: 23,
     name: "Blaziken",
     gen: 3,
-    types: "Fire" + "Fighting",
+    types: "Fire" + "and" + "Fighting",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/257.png",
   },
@@ -195,7 +195,7 @@ const pokemon = [
     id: 24,
     name: "Mudkip",
     gen: 3,
-    types: "Water" + "N/A",
+    types: "Water" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/258.png",
   },
@@ -203,7 +203,7 @@ const pokemon = [
     id: 25,
     name: "Marshtomp",
     gen: 3,
-    types: "Water" + "N/A",
+    types: "Water" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/259.png",
   },
@@ -211,7 +211,7 @@ const pokemon = [
     id: 26,
     name: "Swampert",
     gen: 3,
-    types: "Water" + "Ground",
+    types: "Water" + "and" + "Ground",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/260.png",
   },
@@ -219,7 +219,7 @@ const pokemon = [
     id: 27,
     name: "Turtwig",
     gen: 4,
-    types: "Grass" + "N/A",
+    types: "Grass" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/387.png",
   },
@@ -227,7 +227,7 @@ const pokemon = [
     id: 28,
     name: "Grotle",
     gen: 4,
-    types: "Grass" + "N/A",
+    types: "Grass" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/388.png",
   },
@@ -235,7 +235,7 @@ const pokemon = [
     id: 29,
     name: "Torterra",
     gen: 4,
-    types: "Grass" + "Ground",
+    types: "Grass" + "and" + "Ground",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/389.png",
   },
@@ -243,7 +243,7 @@ const pokemon = [
     id: 30,
     name: "Chimchar",
     gen: 4,
-    types: "Fire" + "N/A",
+    types: "Fire" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/390.png",
   },
@@ -251,7 +251,7 @@ const pokemon = [
     id: 31,
     name: "Monferno",
     gen: 4,
-    types: "Fire" + "Fighting",
+    types: "Fire" + "and" + "Fighting",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/391.png",
   },
@@ -259,7 +259,7 @@ const pokemon = [
     id: 32,
     name: "Infernape",
     gen: 4,
-    types: "Fire" + "Fighting",
+    types: "Fire" + "and" + "Fighting",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/392.png",
   },
@@ -267,7 +267,7 @@ const pokemon = [
     id: 33,
     name: "Piplup",
     gen: 4,
-    types: "Water" + "N/A",
+    types: "Water" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/393.png",
   },
@@ -275,7 +275,7 @@ const pokemon = [
     id: 34,
     name: "Prinplup",
     gen: 4,
-    types: "Water" + "N/A",
+    types: "Water" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/394.png",
   },
@@ -283,7 +283,7 @@ const pokemon = [
     id: 35,
     name: "Empoleon",
     gen: 4,
-    types: "Water" + "Steel",
+    types: "Water" + "and" + "Steel",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/395.png",
   },
@@ -291,7 +291,7 @@ const pokemon = [
     id: 36,
     name: "Snivy",
     gen: 5,
-    types: "Grass" + "N/A",
+    types: "Grass" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/495.png",
   },
@@ -307,7 +307,7 @@ const pokemon = [
     id: 38,
     name: "Serperior",
     gen: 5,
-    types: "Grass" + "N/A",
+    types: "Grass" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/497.png",
   },
@@ -315,7 +315,7 @@ const pokemon = [
     id: 39,
     name: "Tepig",
     gen: 5,
-    types: "Fire" + "N/A",
+    types: "Fire" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/498.png",
   },
@@ -323,7 +323,7 @@ const pokemon = [
     id: 40,
     name: "Pignite",
     gen: 5,
-    types: "Fire" + "Fighting",
+    types: "Fire" + "and" + "Fighting",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/499.png",
   },
@@ -331,7 +331,7 @@ const pokemon = [
     id: 41,
     name: "Emboar",
     gen: 5,
-    types: "Fire" + "Fighting",
+    types: "Fire" + "and" + "Fighting",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/500.png",
   },
@@ -339,7 +339,7 @@ const pokemon = [
     id: 42,
     name: "Oshawott",
     gen: 5,
-    types: "Water" + "N/A",
+    types: "Water" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/501.png",
   },
@@ -347,7 +347,7 @@ const pokemon = [
     id: 43,
     name: "Dewott",
     gen: 5,
-    types: "Water" + "N/A",
+    types: "Water" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/502.png",
   },
@@ -355,7 +355,7 @@ const pokemon = [
     id: 44,
     name: "Samurott",
     gen: 5,
-    types: "Water" + "N/A",
+    types: "Water" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/503.png",
   },
@@ -363,7 +363,7 @@ const pokemon = [
     id: 45,
     name: "Chespin",
     gen: 6,
-    types: "Grass" + "N/A",
+    types: "Grass" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/650.png",
   },
@@ -371,7 +371,7 @@ const pokemon = [
     id: 46,
     name: "Quilladin",
     gen: 6,
-    types: "Grass" + "N/A",
+    types: "Grass" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/651.png",
   },
@@ -379,7 +379,7 @@ const pokemon = [
     id: 47,
     name: "Chesnaught",
     gen: 6,
-    types: "Grass" + "Fighting",
+    types: "Grass" + "and" + "Fighting",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/652.png",
   },
@@ -387,7 +387,7 @@ const pokemon = [
     id: 48,
     name: "Fennekin",
     gen: 6,
-    types: "Fire" + "N/A",
+    types: "Fire" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/653.png",
   },
@@ -395,7 +395,7 @@ const pokemon = [
     id: 49,
     name: "Braixen",
     gen: 6,
-    types: "Fire" + "N/A",
+    types: "Fire" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/654.png",
   },
@@ -403,7 +403,7 @@ const pokemon = [
     id: 50,
     name: "Delphox",
     gen: 6,
-    types: "Fire" + "Psychic",
+    types: "Fire" + "and" + "Psychic",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/655.png",
   },
@@ -411,7 +411,7 @@ const pokemon = [
     id: 51,
     name: "Froakie",
     gen: 6,
-    types: "Water" + "N/A",
+    types: "Water" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/656.png",
   },
@@ -419,7 +419,7 @@ const pokemon = [
     id: 52,
     name: "Frogadier",
     gen: 6,
-    types: "Water" + "N/A",
+    types: "Water" + "and" + "N/A",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/657.png",
   },
@@ -427,7 +427,7 @@ const pokemon = [
     id: 53,
     name: "Greninja",
     gen: 6,
-    types: "Water" + "Dark",
+    types: "Water" + "and" + "Dark",
     front_sprite:
       "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/658.png",
   },
