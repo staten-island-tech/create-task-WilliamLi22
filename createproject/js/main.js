@@ -11,7 +11,7 @@ function setTotalCash(amount) {
 console.log("You have:", totalCash);
 
 //Buy button
-const apiresponse = document.querySelector(`#apiresponse`);
+const apiresponse = document.querySelector(`#response`);
 
 document.getElementById("buybtn").addEventListener("click", function () {
   apiresponse.innerHTML = ``;
@@ -22,14 +22,14 @@ function randompokemon() {
   const randomid = Math.floor(Math.random() * pokemon.length);
   const selectedpokemon = pokemon[randomid];
   if (totalCash >= 25) {
-    document.getElementById("apiresponse").insertAdjacentHTML(
+    document.getElementById("response").insertAdjacentHTML(
       "beforeend",
       `
         <div class="card">
-        <h2 class="apiresponse">Name: ${selectedpokemon.name} </h2)
-        <h2 class="apiresponse">Generation: ${selectedpokemon.gen} </h2>
+        <h2 class="response">Name: ${selectedpokemon.name} </h2)
+        <h2 class="response">Generation: ${selectedpokemon.gen} </h2>
         <img src="${selectedpokemon.front_sprite}" alt="Front_sprite of Pokemon">
-        <h2 class="apiresponse">Type(s): ${selectedpokemon.types} </h2>
+        <h2 class="response">Type(s): ${selectedpokemon.types} </h2>
         </div>
       `
     );
@@ -44,8 +44,6 @@ function randompokemon() {
         `<p>You do not have enough money. Try again when you have 25 dollars.</p>`
       );
   }
-
-  console.log(selectedpokemon);
 }
 
 const makemoneybtn = document.getElementById("makemoneybtn");
@@ -72,6 +70,7 @@ function flipCoin() {
       "Heads! You now have $" + totalCash;
   } else {
     console.log("Tails");
+    s;
     totalCash = 0;
     setTotalCash(totalCash);
     document.getElementById("result").innerHTML =
