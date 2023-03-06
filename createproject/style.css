@@ -1,6 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
+  background-color: rgb(240, 254, 254);
 }
 
 body {
@@ -13,6 +14,9 @@ body {
 button {
   padding: 10px;
   margin: 5px;
+  font-size: 1rem;
+  background-color: rgb(189, 206, 237);
+  border-radius: 5px;
 }
 
 .card {
@@ -20,7 +24,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: bisque;
+  background-color: antiquewhite;
   border-radius: 15px;
   margin: 5px;
 }
