@@ -11,10 +11,10 @@ function setTotalCash(amount) {
 console.log("You have:", totalCash);
 
 //Buy button
-const apiresponse = document.querySelector(`#response`);
+const response = document.querySelector(`#response`);
 
 document.getElementById("buybtn").addEventListener("click", function () {
-  apiresponse.innerHTML = ``;
+  response.innerHTML = ``;
   randompokemon();
 });
 
@@ -38,7 +38,7 @@ function randompokemon() {
     console.log("Total Cash:", totalCash);
   } else {
     document
-      .getElementById("apiresponse")
+      .getElementById("response")
       .insertAdjacentHTML(
         "beforeend",
         `<p>You do not have enough money. Try again when you have 25 dollars.</p>`
