@@ -70,7 +70,6 @@ function flipCoin() {
       "Heads! You now have $" + totalCash;
   } else {
     console.log("Tails");
-    s;
     totalCash = 0;
     setTotalCash(totalCash);
     document.getElementById("result").innerHTML =
